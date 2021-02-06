@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    /* padding: 100px; */
+    background-color: lightcoral;
 }
 .middle-place{
     width: 100%;
@@ -33,7 +33,7 @@ body{
 }
 #top-side-food{
     margin: 20px 0px 0px 327px ;
-    box-shadow: 5px 5px 10px goldenrod;
+    box-shadow: 3px 3px 10px rgb(206, 178, 175);
     padding: 50px;
     width: 450px; 
     display: none;
