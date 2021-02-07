@@ -37,14 +37,20 @@ const foodIngredient = (ingredients) => {
                             <img src="${ingredients.strMealThumb}">
                             <h2>${ingredients.strMeal}</h2> 
                             <p class="fw-bolder mt-5 mb-3">Ingredients</p> 
-                            <p>${ingredients.strIngredient1} : ${ingredients.strMeasure1}</p>
-                            <p>${ingredients.strIngredient2} : ${ingredients.strMeasure2}</p> 
-                            <p>${ingredients.strIngredient3} : ${ingredients.strMeasure3}</p> 
-                            <p>${ingredients.strIngredient4} : ${ingredients.strMeasure4}</p> 
-                            <p>${ingredients.strIngredient5} : ${ingredients.strMeasure5}</p> 
-                            <p>${ingredients.strIngredient6} : ${ingredients.strMeasure6}</p> 
+                            <p>${ingredients.strMeasure1}  ${ingredients.strIngredient1}</p>
+                            <p>${ingredients.strMeasure2}  ${ingredients.strIngredient2}</p> 
+                            <p>${ingredients.strMeasure3}  ${ingredients.strIngredient3}</p> 
+                            <p>${ingredients.strMeasure4}  ${ingredients.strIngredient4}</p> 
+                            <p>${ingredients.strMeasure5}  ${ingredients.strIngredient5}</p> 
+                            <p>${ingredients.strMeasure6}  ${ingredients.strIngredient6}</p> 
+                            <p>${ingredients.strMeasure7}  ${ingredients.strIngredient7}</p> 
+                            <p>${ingredients.strMeasure8}  ${ingredients.strIngredient8}</p> 
+                            <p>${ingredients.strMeasure9}  ${ingredients.strIngredient9}</p> 
+                            <p>${ingredients.strMeasure10}  ${ingredients.strIngredient10}</p> 
+                            <p>${ingredients.strMeasure11}  ${ingredients.strIngredient11}</p> 
+                            <p>${ingredients.strMeasure12}  ${ingredients.strIngredient12}</p> 
+                            <p>${ingredients.strMeasure13}  ${ingredients.strIngredient13}</p> 
+                            <p>${ingredients.strMeasure14}  ${ingredients.strIngredient14}</p> 
     `;
-    document.getElementById("top-side-food").style.display = "block";
-    console.log(ingredients);
+    document.getElementById("top-side-food").style.display = "block"; 
 }
-
